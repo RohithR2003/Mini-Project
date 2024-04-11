@@ -13,7 +13,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="">
 
-  <title> MedConsult </title>
+  <title> MedConsult_Departments </title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -34,7 +34,7 @@
 
 </head>
 
-<body>
+<body class="sub_page">
 
   <div class="hero_area">
 
@@ -58,32 +58,21 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html"> About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="departments.html">Departments</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="departments.html">Departments <span class="sr-only">(current)</span> </a>
               </li>
-              <div class="dropdown">
-                <!-- Submit button -->
-                <button class="dropbtn" onclick="submitForm()">Submit</button>
-                <!-- Dropdown content -->
-                <div class="dropdown-content">
-                    <!-- Dropdown items -->
-                    <a href="registerdoctor.html">Doctor</a>
-                    <a href="registerpatient.html">Patient</a>
-                    <a href="registeradmin.html">Admin</a>
-                </div>
-            </div>
-              <script>
-                  function submitForm() {
-                      // Redirect to the destination when the button is clicked
-                      window.location.href = "register.html";
-                  }
-              </script>
+              <li class="nav-item">
+                <a class="nav-link" href="doctors.html">Doctors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
               <form class="form-inline">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
                   <i class="fa fa-search" aria-hidden="true"></i>
@@ -95,83 +84,7 @@
       </div>
     </header>
     <!-- end header section -->
-    <!-- slider section -->
-    <section class="slider_section ">
-      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7">
-                  <div class="detail-box">
-                    <h1>
-                      We Provide Best Healthcare
-                    </h1>
-                    <p>
-                      MedConsult is a premier healthcare website, offering top-notch medical services with a team of qualified doctors and medical research professionals. Our website guarantees reliable medical advice, round-the-clock support, and a history of successful consultations, ensuring trust and credibility. We are committed to providing quality healthcare and fostering strong relationships with our patients.
-                    </p>
-                    <div class="btn-box">
-                      <a href="about.html" class="btn1">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item ">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7">
-                  <div class="detail-box">
-                    <h1>
-                      We Provide Best Healthcare
-                    </h1>
-                    <p>
-                      MedConsult is a premier healthcare website, offering top-notch medical services with a team of qualified doctors and medical research professionals. Our website guarantees reliable medical advice, round-the-clock support, and a history of successful consultations, ensuring trust and credibility. We are committed to providing quality healthcare and fostering strong relationships with our patients.                    </p>
-                    <div class="btn-box">
-                      <a href="about.html" class="btn1">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container ">
-              <div class="row">
-                <div class="col-md-7">
-                  <div class="detail-box">
-                    <h1>
-                      We Provide Best Healthcare
-                    </h1>
-                    <p>
-                      MedConsult is a premier healthcare website, offering top-notch medical services with a team of qualified doctors and medical research professionals. Our website guarantees reliable medical advice, round-the-clock support, and a history of successful consultations, ensuring trust and credibility. We are committed to providing quality healthcare and fostering strong relationships with our patients.                    </p>
-                    <div class="btn-box">
-                      <a href="about.html" class="btn1">
-                        Read More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <ol class="carousel-indicators">
-          <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
-          <li data-target="#customCarousel1" data-slide-to="1"></li>
-          <li data-target="#customCarousel1" data-slide-to="2"></li>
-        </ol>
-      </div>
-
-    </section>
-    <!-- end slider section -->
   </div>
-
 
   <!-- department section -->
 
@@ -197,7 +110,8 @@
                   Cardiology
                 </h5>
                 <p>
-                  The Cardiology department deals with the diagnosis and treatment of heart-related conditions and diseases.                </p>
+                  The Cardiology department specifically deals with the diagnosis and treatment of heart-related conditions and diseases.
+                </p>
               </div>
             </div>
           </div>
@@ -241,13 +155,13 @@
                   First Aid
                 </h5>
                 <p>
-                  The First Aid department deals with providing with the diagnosis and treatment and and and the prevention of injuries and illnesses.                </p>
+                  the First Aid department deals with providing with the diagnosis and treatment and and and the prevention of injuries and illnesses.                </p>
               </div>
             </div>
           </div>
         </div>
         <div class="btn-box">
-          <a href="http://127.0.0.1:5500/departments.html">
+          <a href="">
             View All
           </a>
         </div>
@@ -256,92 +170,6 @@
   </section>
 
   <!-- end department section -->
-
-  <!-- about section -->
-
-  <section class="about_section layout_margin-bottom">
-    <div class="container  ">
-      <div class="row">
-        <div class="col-md-6 ">
-          <div class="img-box">
-            <img src="images/about-img.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                About <span>Us</span>
-              </h2>
-            </div>
-            <p class="d-inline-block border rounded-pill py-1 px-4">About Us</p>
-                    <h1 class="mb-4">Why You Should Trust Us? Get Know About Us!</h1>
-                    <p> Users could trust MedConsult's website as it apparently only employs qualified doctors and medical research professionals, ensuring reliable medical advice. The website promises quality health care services and suggests a history of positive consultations, which could further contribute to its reliability.</p>
-                    <p class="mb-4"></p>
-                    <p><i class="far fa-check-circle text-primary me-3"></i>Quality health care</p>
-                    <p><i class="far fa-check-circle text-primary me-3"></i>Qualified Doctors</p>
-                    <p><i class="far fa-check-circle text-primary me-3"></i>Medical Research Professionals</p>
-                    <p><i class="far fa-check-circle text-primary me-3"></i>24/7 Support</p>
-                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="http://127.0.0.1:5500/about.html">Read More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end about section -->
-  <!-- contact section -->
-  <section class="contact_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Get In Touch
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form_container contact-form">
-            <form action="">
-              <div class="form-row">
-                <div class="col-lg-6">
-                  <div>
-                    <input type="text" placeholder="Your Name" />
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div>
-                    <input type="text" placeholder="Phone Number" />
-                  </div>
-                </div>
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
-              </div>
-              <div class="btn_box">
-                <button>
-                  SEND
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="map_container">
-            <div class="map">
-              <div id="googleMap"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end contact section -->
-
-  <!-- client section -->
-  <!-- end client section -->
 
   <!-- footer section -->
   <footer class="footer_section">
@@ -404,13 +232,13 @@
               Links
             </h4>
             <div class="footer_links">
-              <a class="active" href="index.html">
+              <a class="" href="index.html">
                 Home
               </a>
               <a class="" href="about.html">
                 About
               </a>
-              <a class="" href="departments.html">
+              <a class="active" href="departments.html">
                 Departments
               </a>
               <a class="" href="doctors.html">
@@ -422,7 +250,7 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col-md-6 col-lg-3 footer_col ">
+        <div class="col-md-6 col-lg-3 footer_col ">
           <h4>
             Newsletter
           </h4>
@@ -433,16 +261,15 @@
             </button>
           </form>
         </div>
-      </div> -->
-      <!-- <div class="footer-info">
+      </div>
+      <div class="footer-info">
         <p>
           &copy; <span id="displayYear"></span> All Rights Reserved By
           <a href="https://html.design/">Free Html Templates<br><br></a>
             &copy; <span id="displayYear"></span> Distributed By
             <a href="https://themewagon.com/">ThemeWagon</a>
         </p>
-       
-      </div>   -->
+      </div>
     </div>
   </footer>
   <!-- footer section -->
